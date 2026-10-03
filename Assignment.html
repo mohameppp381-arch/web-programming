@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الشخصية والجدول الدراسي</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about">عني</a></li>
+            <li><a href="#skills">المهارات والاهتمامات</a></li>
+            <li><a href="#schedule">الجدول الدراسي</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <header>
+        <h1>مرحباً بك في صفحتي الشخصية</h1>
+        <p>هذه الصفحة تم إنشاؤها باستخدام لغة HTML فقط لغرض التكليف الدراسي.</p>
+    </header>
+
+    <section id="about">
+        <h2>نبذة عني</h2>
+        <p>أنا طالب أدرس تطوير الويب وعلوم الحاسوب، وأسعى لبناء تطبيقات ويب احترافية ومتجاوبة.</p>
+        
+        <h3>صورة الملف الشخصي</h3>
+        <img 
+            src="file:///C:/Users/moham/OneDrive/Documents/Web%20Work/WhatsApp%20Image%202026-10-03%20at%2011.56.46%20PM.jpeg" 
+            srcset="file:///C:/Users/moham/OneDrive/Documents/Web%20Work/WhatsApp%20Image%202026-10-03%20at%2011.56.46%20PM.jpeg 800w" 
+            sizes="(max-width: 600px) 400px, 800px" 
+            alt="صورة شخصية تعبيرية للطالب" 
+            width="800" 
+            height="500">
+    </section>
+
+    <section id="skills">
+        <h2>المهارات والخطوات الدراسية</h2>
+        
+        <h3>أهدافي للأسبوع الحالي:</h3>
+        <ol>
+            <li>إنهاء تكليف HTML بجميع متطلباته.</li>
+            <li>فحص الكود عبر W3C Validator للتأكد من خلوه من الأخطاء.</li>
+            <li>رفع التعديلات على GitHub Fork الخاص بالكورس.</li>
+        </ol>
+
+        <h3>تقنيات الويب التي أتعلمها:</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="schedule">
+        <h2>الجدول الدراسي الأسبوعي</h2>
+        <table>
+            <caption>جدول المحاضرات والدروس الأسبوعية</caption>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>الفترة الأولى (09:00 - 11:00)</th>
+                    <th>الفترة الثانية (11:30 - 01:30)</th>
+                    <th>ملاحظات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>الأحد</td>
+                    <td>أساسيات HTML</td>
+                    <td>مختبر التطبيق العملي</td>
+                    <td rowspan="2">حضور إجباري في القاعة</td>
+                </tr>
+                <tr>
+                    <td>الإثنين</td>
+                    <td>قواعد البيانات</td>
+                    <td>شبكات الحاسوب</td>
+                </tr>
+                <tr>
+                    <td>الثلاثاء</td>
+                    <td colspan="2">ورشة عمل متكاملة حول تطوير الويب</td>
+                    <td>أونلاين عبر Zoom</td>
+                </tr>
+                <tr>
+                    <td>الأربعاء</td>
+                    <td>تراكيب البيانات</td>
+                    <td>أنظمة التشغيل</td>
+                    <td>تراسل مع المعيد</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">ملاحظة: الساعات المكتبية تكون يوم الخميس من الساعة 10 صباحاً حتى 12 ظهراً.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <footer id="contact">
+        <p>جميع الحقوق محفوظة &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
